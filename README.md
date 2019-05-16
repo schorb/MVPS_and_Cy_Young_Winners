@@ -94,26 +94,30 @@ Overall the models performed well.  The specific scores are listed below for the
 ## Hitting
 
 ### Traditional
-
-Recall is 0.493
-Specificity is 0.978
+|Metric|Score|
+|---|---|
+|Recall |0.493|
+|Specificity|0.978|
 
 ### Sabermetric
-
-Recall is 0.473
-Specificity is 0.977
+|Metric|Score|
+|---|---|
+|Recall|0.473|
+|Specificity|0.977
 
 ## Pitching
 
 ### Traditional
-
-Recall is 0.857
-Specificity is 0.972
+|Metric|Score|
+|---|---|
+|Recall|0.857|
+|Specificity|0.972|
 
 ### Sabermetric
-
-Recall is 0.693
-Specificity is 0.974
+|Metric|Score|
+|---|---|
+|Recall|0.693|
+|Specificity|0.974|
 
 Overall, the pitching models performed better in terms of recall, since it was a smaller dataset and was slightly more balanced, even after the resample.  All models performed similarly in terms of specififity, showing that neither set of statistics are better than the other at predicting the outcome of an MVP or a Cy Young award.  
 
